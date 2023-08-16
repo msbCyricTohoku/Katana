@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>resources/katana.png</file>
+        <file>resources/zip.png</file>
+        <file>resources/targz.png</file>
+        <file>resources/folder.png</file>
+        <file>resources/about.png</file>
+        <file>resources/quit.png</file>
+        <file>resources/backuplater.png</file>
+        <file>resources/backup.png</file>
+    </qresource>
+</RCC>

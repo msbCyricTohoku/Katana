@@ -122,11 +122,12 @@ void katana::on_pushButton_clicked()
 
 void katana::on_pushButton_3_clicked()
 {
+   //  Q_INIT_RESOURCE(katana);
 
     QMessageBox msgAbout;
     msgAbout.setInformativeText("<span style='text-align: center'><p><b><font size = 20>Katana</font><p><font size = 14>Libre Backup tool</font><p><font size = 14>Version 0.1</font><p><font size = 14>by CYRIC, Tohoku University</font><p>Mehrdad S. Beni & Hiroshi Watabe | 2023</span><span style='text-align: left'><p>A simple lightweight backup tool, part of Kamakura project.</span><p>");
     QPixmap pixAbout;
-    pixAbout.load("resources/katana.png");
+    pixAbout.load(":resources/katana.png");
     msgAbout.setIconPixmap(pixAbout);
     msgAbout.setStandardButtons(QMessageBox::Close);
     msgAbout.setDefaultButton(QMessageBox::Close);
@@ -172,7 +173,7 @@ void katana::on_actionAbout_triggered()
     QMessageBox msgAbout;
     msgAbout.setInformativeText("<span style='text-align: center'><p><b><font size = 20>Katana</font><p><font size = 14>Libre Backup tool</font><p><font size = 14>Version 0.1</font><p><font size = 14>by CYRIC, Tohoku University</font><p>Mehrdad S. Beni & Hiroshi Watabe | 2023</span><span style='text-align: left'><p>A simple lightweight backup tool, part of Kamakura project.</span><p>");
     QPixmap pixAbout;
-    pixAbout.load("resources/katana.png");
+    pixAbout.load(":resources/katana.png");
     msgAbout.setIconPixmap(pixAbout);
     msgAbout.setStandardButtons(QMessageBox::Close);
     msgAbout.setDefaultButton(QMessageBox::Close);

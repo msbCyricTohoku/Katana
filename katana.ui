@@ -66,8 +66,8 @@
          <string>Folder to Backup</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/folder.png</normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/folder.png</iconset>
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/resources/folder.png</normaloff>:/new/prefix1/resources/folder.png</iconset>
         </property>
        </widget>
       </item>
@@ -128,8 +128,8 @@
          <string>tar.gz</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/targz.png</normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/targz.png</iconset>
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/resources/targz.png</normaloff>:/new/prefix1/resources/targz.png</iconset>
         </property>
        </widget>
       </item>
@@ -146,8 +146,8 @@
          <string>zip</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/zip.png</normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/zip.png</iconset>
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/resources/zip.png</normaloff>:/new/prefix1/resources/zip.png</iconset>
         </property>
        </widget>
       </item>
@@ -187,8 +187,8 @@
          <string>Backup</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/backup.png</normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/backup.png</iconset>
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/resources/backup.png</normaloff>:/new/prefix1/resources/backup.png</iconset>
         </property>
        </widget>
       </item>
@@ -205,8 +205,8 @@
          <string>About</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/about.png</normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/about.png</iconset>
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/resources/about.png</normaloff>:/new/prefix1/resources/about.png</iconset>
         </property>
        </widget>
       </item>
@@ -223,8 +223,8 @@
          <string>Quit</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/quit.png</normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/quit.png</iconset>
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/resources/quit.png</normaloff>:/new/prefix1/resources/quit.png</iconset>
         </property>
        </widget>
       </item>
@@ -261,8 +261,8 @@
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionAbout">
    <property name="icon">
-    <iconset>
-     <normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/about.png</normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/about.png</iconset>
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/prefix1/resources/about.png</normaloff>:/new/prefix1/resources/about.png</iconset>
    </property>
    <property name="text">
     <string>About</string>
@@ -279,8 +279,8 @@
   </action>
   <action name="actionQuit">
    <property name="icon">
-    <iconset>
-     <normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/quit.png</normaloff>../build-Katana-Qt_5_15_3_qt5-Debug/resources/quit.png</iconset>
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/prefix1/resources/quit.png</normaloff>:/new/prefix1/resources/quit.png</iconset>
    </property>
    <property name="text">
     <string>Quit</string>
@@ -297,8 +297,8 @@
   </action>
   <action name="actionOpen_folder">
    <property name="icon">
-    <iconset>
-     <normaloff>resources/folder.png</normaloff>resources/folder.png</iconset>
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/prefix1/resources/folder.png</normaloff>:/new/prefix1/resources/folder.png</iconset>
    </property>
    <property name="text">
     <string>Open folder</string>
@@ -308,6 +308,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
  <connections/>
 </ui>
